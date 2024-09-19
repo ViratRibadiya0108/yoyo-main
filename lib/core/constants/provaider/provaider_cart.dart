@@ -11,7 +11,7 @@ class ProvaiderCart extends ChangeNotifier{
   //   productByCategoryData = await ProductByCategory().categaryOfProdact(id: id);
   //   notifyListeners();
   // }
-
+  //cartProvidrt
   Future<void> cartProvider (Product productData)async{
    await AddProductToCart.addToCart(productData);
    notifyListeners();
